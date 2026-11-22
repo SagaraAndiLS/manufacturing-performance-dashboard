@@ -1,57 +1,57 @@
-# Manufacturing Performance Dashboard
+# Dashboard Performa Manufaktur (Manufacturing Performance Dashboard)
 
-An interactive Power BI dashboard that tracks manufacturing performance across product types, countries, warehouse locations, and time. It helps answer where production cost is concentrated, which products and countries drive volume, and how efficiently each country produces.
+Dashboard Power BI interaktif untuk memantau performa manufaktur berdasarkan jenis produk, negara, lokasi gudang, dan waktu. Dashboard ini membantu menjawab di mana biaya produksi terkonsentrasi, produk dan negara mana yang mendorong volume produksi, serta seberapa efisien produksi di tiap negara.
 
 <img src="image/Manufacturing_Dashboard%20(1).png" alt="Manufacturing Performance Dashboard" width="100%">
 
-## Key Metrics (KPI Cards)
+## Metrik Utama (Kartu KPI)
 
-| Metric | Description |
+| Metrik | Deskripsi |
 |---|---|
-| **Avg. Production Cost** | Average production cost per product record |
-| **Total Quantity Produced** | Total units produced |
-| **Avg. Production Cost per Unit** | Average cost efficiency (production cost relative to quantity produced) |
+| **Avg. Production Cost** | Rata-rata biaya produksi per catatan produk |
+| **Total Quantity Produced** | Total unit yang diproduksi |
+| **Avg. Production Cost per Unit** | Rata-rata efisiensi biaya (biaya produksi relatif terhadap jumlah produksi) |
 
-## Visualizations
+## Visualisasi
 
-- **Production Cost by Product Type**: total production cost for each product category
-- **Production Volume by Country**: share of total quantity produced by each country (donut chart)
-- **Product Distribution Across Warehouse Location**: quantity produced per warehouse region (West, East, North, South)
-- **Monthly Production Trend**: quantity produced by month
-- **Total Production by Product Type**: quantity produced per product category
-- **Cost Efficiency by Country**: average cost per unit by country
+- **Production Cost by Product Type**: total biaya produksi untuk setiap kategori produk
+- **Production Volume by Country**: porsi total produksi dari tiap negara (donut chart)
+- **Product Distribution Across Warehouse Location**: jumlah produksi per wilayah gudang (West, East, North, South)
+- **Monthly Production Trend**: jumlah produksi per bulan
+- **Total Production by Product Type**: jumlah produksi per kategori produk
+- **Cost Efficiency by Country**: rata-rata biaya per unit untuk tiap negara
 
-## Filters
+## Filter
 
-Slicers let you filter the whole dashboard by **Year**, **Product Type**, and **Country**.
+Slicer memungkinkan seluruh dashboard difilter berdasarkan **Year**, **Product Type**, dan **Country**.
 
-## Key Insights
+## Insight Utama
 
-- **Automobiles and Textiles** have the highest production cost (about $2.2M each), while **Machinery** is the lowest (about $1.7M).
-- **Textiles and Automobiles** also lead in volume (about 115K units each); Machinery produces the least (88K).
-- **Production volume is evenly spread across countries**, each contributing roughly 19% to 21% of the total.
-- **West** is the largest warehouse location (140K units) and **South** the smallest (124K).
-- **Production peaks in May (52K units)** and drops sharply from October to December (33K to 35K).
-- **USA has the highest cost per unit ($29.71)** and **Japan the lowest ($22.41)**.
+- **Automobiles dan Textiles** memiliki biaya produksi tertinggi (sekitar $2,2 juta masing-masing), sedangkan **Machinery** terendah (sekitar $1,7 juta).
+- **Textiles dan Automobiles** juga unggul dalam volume (sekitar 115 ribu unit masing-masing); Machinery memproduksi paling sedikit (88 ribu).
+- **Volume produksi tersebar merata antar negara**, dengan kontribusi sekitar 19% hingga 21% dari total.
+- **West** adalah lokasi gudang terbesar (140 ribu unit) dan **South** yang terkecil (124 ribu).
+- **Produksi mencapai puncak di bulan Mei (52 ribu unit)** lalu turun tajam dari Oktober hingga Desember (33 hingga 35 ribu).
+- **USA memiliki biaya per unit tertinggi ($29,71)** dan **Japan terendah ($22,41)**.
 
 ## Tools
 
 - Microsoft Power BI Desktop
-- DAX and Power Query for data cleaning and calculated columns
+- DAX dan Power Query untuk pembersihan data dan kolom kalkulasi
 
-## Project Structure
+## Struktur Proyek
 
 ```
 manufacturing-performance-dashboard/
 ├── Power-BI/
-│   └── Manufacturing_performance.pbix   # Power BI report file
+│   └── Manufacturing_performance.pbix   # File laporan Power BI
 ├── image/
-│   └── Manufacturing_Dashboard (1).png  # Dashboard screenshot
+│   └── Manufacturing_Dashboard (1).png  # Tangkapan layar dashboard
 └── README.md
 ```
 
-## How to Use
+## Cara Menggunakan
 
-1. Download or clone this repository.
-2. Open `Power-BI/Manufacturing_performance.pbix` in [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
-3. Use the Year, Product Type, and Country slicers to explore the data.
+1. Unduh atau clone repositori ini.
+2. Buka `Power-BI/Manufacturing_performance.pbix` di [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
+3. Gunakan slicer Year, Product Type, dan Country untuk mengeksplorasi data.
